@@ -32,8 +32,4 @@ public class CustomOAuth2User implements OAuth2User {
     public String getEmail() {
         return oauth2User.<String>getAttribute("email");
     }
-
-    public String getPicture() {
-        return oauth2User.<String>getAttribute("picture");
-    }
 }
